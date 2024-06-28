@@ -1,16 +1,20 @@
 {
-  "name": "com.virtuesky._package_name_",
-  "displayName": "__Package_Name__",
-  "description": "__Package_Description__",
-  "version": "x.x.x",
+  "name": "com.wolf-package.game-data",
+  "displayName": "UnityCommon-GameData",
+  "description": "System game data for game unity",
+  "version": "1.0.0",
   "unity": "2021.3",
   "category": "virtuesky",
+  "license": "MIT",
   "author": {
     "name": "virtuesky",
     "email": "virtuesky.0520@gmail.com",
     "url": "https://github.com/VirtueSky"
   },
   "keywords": [
+    "Data",
+    "Unity",
+    "GameData"
   ],
   "dependencies": {}
 }
