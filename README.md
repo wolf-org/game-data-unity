@@ -32,9 +32,15 @@ for version `1.0.0`
 - Initialize data when loading the game: `GameData.Init()`
 - Change Profile: `GameData.ChangeProfile(int profile)`
 - Load Data: `GameData.Load()` Load all data from file for game, data will be loaded automatically when starting the game
-- Get Data: `GameData.Get("KEY", valueDefault);` use similar to PlayerPrefs
-- Set Data: `GameData.Set("KEY", value);` use similar to PlayerPrefs
-- Save Data: `GameData.Save()` save data to file (You should save when pausing or quitting the game)
-- Has Key: `GameData.HasKey(string key)` to check if the profile has a key,
-- DeleteKey: `GameData.DeleteKey(string key)`to delete the key from the profile
-- DeleteAll: `GameData.DeleteAll()` to delete the entire key
+- Get Data: `GameData.Get("KEY", valueDefault);` Use similar to PlayerPrefs
+- Set Data: `GameData.Set("KEY", value);` Use similar to PlayerPrefs
+- Save Data: `GameData.Save()` Save data to file (You should save when pausing or quitting the game)
+```csharp
+    private void OnApplicationPause(bool pauseStatus)
+    {
+        if(pauseStatus) GameData.Save();
+    }
+```
+- Has Key: `GameData.HasKey(string key)` To check if the profile has a key,
+- DeleteKey: `GameData.DeleteKey(string key)` To delete the key from the profile
+- DeleteAll: `GameData.DeleteAll()` To delete the entire key
