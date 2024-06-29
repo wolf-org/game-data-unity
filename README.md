@@ -44,3 +44,5 @@ for version `1.0.0`
 - Has Key: `GameData.HasKey(string key)` To check if the profile has a key,
 - DeleteKey: `GameData.DeleteKey(string key)` To delete the key from the profile
 - DeleteAll: `GameData.DeleteAll()` To delete the entire key
+- Backup: `GameData.Backup()` Get raw byte[] of all data of profile
+- Restore: `GameData.Restore(byte[] bytes)` Load from byte[]
