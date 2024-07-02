@@ -17,7 +17,7 @@
 </p>
 
 ## What
-- System data for game unity
+- System data for game unity (Unity 2022.3)
 - Using [Unity.Serialization](https://docs.unity3d.com/Packages/com.unity.serialization@3.1/manual/index.html) to serialize binary data
 - Data allows you to store data in byte[] form in blocks called profiles. Each profile is a Dictionary with the key as a string and the value
 ## How To Install
