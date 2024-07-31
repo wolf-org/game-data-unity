@@ -17,12 +17,19 @@ namespace VirtueSky.DataStorage
 
         #region Internal Stuff
 
+        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
+        private static void RuntimeInit()
+        {
+            Init();
+        }
+
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static void Init()
         {
             if (isInitialized) return;
             isInitialized = true;
             Load();
+            Debug.Log($"<color=Green>GameData Initialized</color>");
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
