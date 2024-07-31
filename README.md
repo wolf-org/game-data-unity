@@ -23,15 +23,15 @@
 ## How To Install
 ### Add the line below to `Packages/manifest.json`
 
-for version `1.0.0`
+for version `1.0.1`
 ```csharp
-"com.wolf-package.game-data":"https://github.com/wolf-package/game-data-unity.git#1.0.0",
+"com.wolf-package.game-data":"https://github.com/wolf-package/game-data-unity.git#1.0.1",
 ```
 ## Use
 
-- Initialize data when loading the game: `GameData.Init()`
+- Initialize data when loading the game: `GameData.Init()` Data will be init (Load Data) automatically when game starts
 - Change Profile: `GameData.ChangeProfile(int profile)`
-- Load Data: `GameData.Load()` Load all data from file for game, data will be loaded automatically when starting the game
+- Load Data: `GameData.Load()` Load all data from file for game
 - Get Data: `GameData.Get("KEY", valueDefault);` Use similar to PlayerPrefs
 - Set Data: `GameData.Set("KEY", value);` Use similar to PlayerPrefs
 - Save Data: `GameData.Save()` Save data to file (You should save when pausing or quitting the game)
