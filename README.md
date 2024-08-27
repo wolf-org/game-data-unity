@@ -23,9 +23,9 @@
 ## How To Install
 ### Add the line below to `Packages/manifest.json`
 
-for version `1.0.1`
+for version `1.0.2`
 ```csharp
-"com.wolf-package.game-data":"https://github.com/wolf-package/game-data-unity.git#1.0.1",
+"com.wolf-org.game-data":"https://github.com/wolf-org/game-data-unity.git#1.0.2",
 ```
 ## Use
 

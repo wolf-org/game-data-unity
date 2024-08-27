@@ -1,8 +1,8 @@
 {
-  "name": "com.wolf-package.game-data",
+  "name": "com.wolf-org.game-data",
   "displayName": "UnityCommon-GameData",
   "description": "System data for game unity",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "unity": "2021.3",
   "category": "virtuesky",
   "license": "MIT",
